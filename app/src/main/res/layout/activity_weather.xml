@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WeatherActivity">
+    tools:context=".screen.weather.WeatherActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -21,5 +21,7 @@
             style="@style/ToolbarTitle"/>
 
     </androidx.appcompat.widget.Toolbar>
+
+    <include layout="@layout/weather_card"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
